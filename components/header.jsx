@@ -54,7 +54,7 @@ const components = [
 
 export default function Header() {
   return (
-    <NavigationMenu>
+    <NavigationMenu className="mt-4 mb mb-4 flex items-center justify-center">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>

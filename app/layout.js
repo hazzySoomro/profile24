@@ -14,10 +14,15 @@ export default function RootLayout({ children }) {
   return (
     
     <html lang="en">
-      <body className={inter.className} className="bg-black text-gray-400">
-        <Header/>
+      <body  className="bg-black text-gray-400 ">
+        <div className='flex items-center justify-center bg-slate-200'>
+
+        <Header />
+        </div>
         {children}
         <Footer/>
+       
+       
         </body>
     </html>
   )
