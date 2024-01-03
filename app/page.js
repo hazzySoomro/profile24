@@ -11,7 +11,7 @@ export default function Home() {
     <main className="flex flex-col items-center px-4">
     <div className='bg-gray-600 rounded-md'>
     <Intro/>
-    <Skills/>
+    {/* <Skills/> */}
     </div>
     
     </main>
